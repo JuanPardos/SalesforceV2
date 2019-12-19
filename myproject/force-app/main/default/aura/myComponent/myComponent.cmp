@@ -1,7 +1,11 @@
-<aura:component>
+<aura:component controller="Controlador">
     <p>hola mundo</p>
     <div class="c-container">
         <aura:attribute name="myvariable" type="String" />
+        <aura:attribute name="data" type="String" />
+        <aura:attribute name="mapa" type="Map" />
+        <aura:attribute name="listaCuentas" type="List" />
+        
         <lightning:button label="llamarVista" onclick="{!v.doSomething}"/>
         <lightning:button label="llamarController" onclick="{!c.conparam}"/>
         <lightning:input type="number" name="entradauusario" label="Pick a Number:" value="54" />

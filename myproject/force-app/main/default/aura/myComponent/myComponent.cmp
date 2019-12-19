@@ -1,0 +1,25 @@
+<aura:component>
+    <p>hola mundo</p>
+    <div class="c-container">
+        <aura:attribute name="myvariable" type="String" />
+        <lightning:button label="llamarVista" onclick="{!v.doSomething}"/>
+        <lightning:button label="llamarController" onclick="{!c.conparam}"/>
+        <lightning:input type="number" name="entradauusario" label="Pick a Number:" value="54" />
+
+        <lightning:layout>
+            <lightning:layoutItem padding="around-small">
+                <div class="custom-box">1</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem padding="around-small">
+                <div class="custom-box">2</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem padding="around-small">
+                <div class="custom-box">3</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem padding="around-small">
+                <div class="custom-box">4</div>
+            </lightning:layoutItem>
+        </lightning:layout>
+    </div>
+
+</aura:component>	

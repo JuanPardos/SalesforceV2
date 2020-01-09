@@ -1,3 +1,3 @@
 <aura:component>
-
+<div>segundo componente</div>
 </aura:component>	

@@ -5,11 +5,11 @@ public with sharing class Controlador {
 
     @AuraEnabled
     public static String sinparam(){
-        return 'asdasda';
+        return 'no hay parametros';
     }
 
     @AuraEnabled
-    public static String conparam(String hola){
-        return 'asdsadasd';
+    public static String conparam(String msg){
+        return msg+' eres el mejor';
     }
 }

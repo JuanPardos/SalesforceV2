@@ -1,3 +1,20 @@
 <aura:component>
 <div>segundo componente</div>
+<aura:attribute name="output" type="string"/>
+
+<aura:attribute name="output2" type="string"/>
+<aura:attribute name="dynamicForm" type="Aura.component[]"/>
+<aura:handler name="init" value="{!this}" action="{!c.onInit}"/>
+{!v.dynamicForm}
+<Lightning:select aura:id="select" name="select" label="select a number" onchange="{!c.selectNumber}">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+</Lightning:select>
+<br/>
+selected option: {!v.output}
+<br/>
+output event: {!v.output2}
+<br/>
+<aura:handler event="c:myevent" action="{!c.handleEvent}"/>
 </aura:component>	

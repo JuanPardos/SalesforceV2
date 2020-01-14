@@ -28,5 +28,5 @@
             </lightning:layoutItem>
         </lightning:layout>
     </div>
-
+<aura:handler event="c:myevent" action="{!c.handleEvent}"/>
 </aura:component>	

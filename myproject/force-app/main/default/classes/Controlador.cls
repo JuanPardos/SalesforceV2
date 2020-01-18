@@ -9,7 +9,7 @@ public with sharing class Controlador {
     }
 
     @AuraEnabled
-    public static String conparam(String msg){
+    public static String callWithParam(String msg){
         return msg+' eres el mejor';
     }
 }

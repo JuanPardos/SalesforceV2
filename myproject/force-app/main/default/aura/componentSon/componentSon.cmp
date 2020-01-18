@@ -1,0 +1,10 @@
+<aura:component>
+    <aura:attribute name="childAttribute" type="String"/>
+    <div>Componente hijo</div>
+    <div>{!v.childAttribute}</div>
+
+
+    <aura:method name="childMethod" action="{!c.changeAttribute}">
+        <aura:attribute name="msg" type="String" default="hola mundo"/>
+    </aura:method>
+</aura:component>	

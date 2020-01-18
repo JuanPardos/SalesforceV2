@@ -1,42 +1,22 @@
 ({
-    selectNumber:function(component,event,helper){
-        var selectedNumber = component.find('select').get('v.value');
-        component.set("v.output",selectedNumber);
-        var appevent =$A.get("e.c:myevent");
-        appevent.setParams({"message":"hey you!"});
-        console.log("firing event");
-        appevent.fire();
+    callControllerJs : function(component, event, helper) {
+        helper.changeMyVariable(component, event);
     },
 
-    onInit : function(component, event,helper){
-        var attributes={
-            "label":"campo de texto",
-            "name":"TextField",
-            "aura:id":"dynamicInput"
-        };
-        $A.createComponent("Lightning:input",attributes,function(innerForm,status,errorMessage){
-            if(status==="SUCCESS"){
-                var formBody=component.get("v.dynamicForm");
-                formBody.push(innerForm);
-                component.set("v.dynamicForm",formBody);
-                console.log("SUCCESS");
-                console.log(innerForm);
-            }else if(status === "INCOMPLETE"){
-                console.log("Error creating component");
-            }else if(status === "ERROR"){
-                console.log("error "+errorMessage);
-            }
-        });
-    }
-    ,
+    callAura : function(component, event, helper) {
+        console.log("llamarAjs");
+        helper.callAuraMethod(component, event);
+    },
 
-    handleEvent : function(component, event){
+    handleEvent1 : function(component, event){
         var message = event.getParam("message");
-        console.log("observer component 2:"+message);
-        component.set("v.output2",message);
+        console.log("observer component 1:"+message)
+        component.set("v.myvariable",message)
     },
-
-    myAction : function(component, event, helper) {
-        
+    
+    showAlert : function (cmp, event, helper) {
+        alert("You clicked: " + event.getSource().get("v.label"));
+        alert("zona horaria:"+$A.get("$Locale.timezone"));
+        alert("moneda:"+$A.get("$Locale.currency"));
     }
 })

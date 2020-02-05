@@ -10,7 +10,7 @@
               
         var action =component.get("c.callWithParam");
         action.setParams({
-            msg:"buenosdias"           
+            msg:" buenos dias"           
         });
 
         action.setCallback(this, function(response){

@@ -1,7 +1,22 @@
-<aura:component>
+<aura:component implements="force:hasRecordId">
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="record" type="Object"/>
     <aura:attribute name="childAttribute" type="String"/>
+    <aura:attribute name="recordError" type="String"/>
+    <aura:attribute name="simpleRecord" type="Object"/>
+    
+
     <div>Componente hijo</div>
     <div>{!v.childAttribute}</div>
+
+    <force:recordData aura:id="recordLoader" 
+    recordid="{v.recordId}" layoutType="FULL"
+    targetRecord="{!v.record}"
+    targetFields="{!v.simpleRecord}"
+    targetError="{!v.recordError}"
+    recordUpdated="{!c.handleRecordUpdated}"
+    mode="EDIT"/>
+
 
 
     <aura:method name="childMethod" action="{!c.changeAttribute}">

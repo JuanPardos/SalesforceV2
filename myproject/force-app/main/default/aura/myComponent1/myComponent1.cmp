@@ -27,5 +27,9 @@
             </lightning:layoutItem>
         </lightning:layout>
     </div>
+    <!-- <aura:attribute name="newContact" type="String[]" default="['Lastname','Email','Phone']"/>
+    <Lightning:recordform objectApiName="Contact" 
+    fields="{!v.newContact}" mode="edit" 
+    onsubmit="{!c.handleSubmit}" /> -->
 <aura:handler event="c:myevent1" action="{!c.handleEvent1}"/>
 </aura:component>	

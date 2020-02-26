@@ -3,8 +3,8 @@ public with sharing class Controlador {
 
     }
 
-    /* @AuraEnabled
-    public static String deleteById(String id){
-        return id;
-    } */
+    @AuraEnabled
+    public static Integer sumCapital(List<E> lista){
+        return msg+' eres el mejor';
+    }
 }

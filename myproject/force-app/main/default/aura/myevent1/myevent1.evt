@@ -1,4 +1,3 @@
 <aura:event type="APPLICATION" description="Event example">
-    <aura:attribute name="list" type="String[]"/>
-    <aura:attribute name="aux" type="String[]"/>
+    <aura:attribute name="message" type="string"/>
 </aura:event>

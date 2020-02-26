@@ -1,15 +1,19 @@
 <aura:component controller="Controlador" access="global">
     <aura:attribute name="list" type="List"/>
+    <aura:attribute name="aux" type="List"/>
+    <aura:attribute name="count" type="Integer" default="1"/>
     <c:myComponent4 childAttribute="{!v.list}"/>
 
-    <aura:attribute name="aux" type="List"/>
-    <c:myComponent4 childAttribute2="{!v.aux}"/>
-
+    <br/><br/>
     <p><b>Introduce marca</b></p>
     Nombre: &nbsp;
     <input aura:id="inputName"/>
     Año fundación: &nbsp;
     <input aura:id="inputYear"/>
+    Capital: &nbsp;
+    <input aura:id="inputCapital"/>
+    En Ruinas: &nbsp;
+    <input aura:id="inputRuinas"/>
     <lightning:button label="Guardar" onclick="{!c.saveData}"/> <br/> <br/>
     
 </aura:component>

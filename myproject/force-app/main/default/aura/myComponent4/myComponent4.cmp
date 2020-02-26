@@ -1,26 +1,31 @@
 <aura:component controller="Controlador" access="global">
-
     <aura:attribute name="childAttribute" type="List"/> <!--List-->
-    <aura:attribute name="childAttribute2" type="List"/> <!--Aux-->
-
     <aura:handler name="change" value="{!v.childAttribute}" action="{!c.onChildAttributeChange}"/>
-    <aura:handler name="change2" value="{!v.childAttribute2}" action="{!c.onChildAttributeChange2}"/>
 
     <h2><b>Listado Marcas</b></h2>
     <table>
         <thead>
-            <th>| Nombre |</th> 
+            <th>| ID |</th> 
+            <th> Nombre |</th> 
             <th> Año fundación |</th>
+            <th> Capital |</th>
+            <th> Ruinas |</th>
         </thead>
         <br/>
         <tbody>
             <aura:iteration var="item" items="{!v.childAttribute}">
                 <tr>
+                    <td>{!item.ID}</td>
                     <td>{!item.name}</td>
                     <td style="text-align: center;">{!item.year}</td>
+                    <td style="text-align: center;">{!item.capital}</td>
+                    <td style="text-align: center;">{!item.ruinas}</td>
                 </tr>
             </aura:iteration>
         </tbody>
     </table>
+    <div>
+        <lightning:button label="llamar a Aura Controller" onclick="{!c.callAura}"/>
+    </div>
 
 </aura:component>	

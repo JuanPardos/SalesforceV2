@@ -1,35 +1,35 @@
 ({
-    onChildAttributeChange : function (component, event, helper) {
-        
-    },
+    onChildAttributeChange : function (component, event, helper) {},
 
-    onChildAttributeChange2 : function (component, event, helper) {
-        
+    selectNumber : function(component, event) {
+        var selectedCapital = component.find('select').get('v.value');
+
+        component.set("v.aux", selectedCapital);
     },
 
     callAura : function(component, event) {
-        var action =component.get("c.callWithParam");
+        var action = component.get("c.Operacion");
+
         action.setParams({
-            msg:"buenosdias"           
+            capital: component.get("v.aux"),          
         });
 
         action.setCallback(this, function(response){
             var state = response.getState();
             if(state==="SUCCESS"){
-                component.set("v.myvariable",userInput+response.getReturnValue());                
+                component.set("v.resultado",response.getReturnValue());                
             }
             if(state==="INCOMPLETE"){
+                console.log("Error");
             }
             if(state==="ERROR"){
                 var errors = response.getError();
                 if(errors){
                     if(errors[0] && errors[0].message ){
-                        console.log(errors[0].message);
+                        console.log("Error");
                     }
-                    component.set("v.myvariable","error");
                 }
             }
-
         });
         $A.enqueueAction(action);
     }

@@ -298,15 +298,15 @@
     [
         "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3/myComponent3Controller.js",
         {
-            "state": "u",
             "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3/myComponent3Controller.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 783,
             "modifiedTime": 1582730778053,
             "changeTime": 1582730778053,
-            "isWorkspace": false,
-            "contentHash": "f840e1171785ec441860b7380cfe4816697f06a7"
+            "contentHash": "f840e1171785ec441860b7380cfe4816697f06a7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -344,10 +344,10 @@
         {
             "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/classes/Controlador.cls",
             "isDirectory": false,
-            "size": 173,
-            "modifiedTime": 1582669067847,
-            "changeTime": 1582669067847,
-            "contentHash": "ad4c7a2e3618637ebf2f75d8c42257ec5b2c494e",
+            "size": 182,
+            "modifiedTime": 1582733935989,
+            "changeTime": 1582733070759,
+            "contentHash": "3e8227c80e84e49e2d79c78c8cf8eaa84f00599c",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -428,10 +428,10 @@
         {
             "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4.cmp",
             "isDirectory": false,
-            "size": 960,
-            "modifiedTime": 1582730660562,
-            "changeTime": 1582730660562,
-            "contentHash": "d13a1781f9a3d415b1d848a12f08034f1fb1be40",
+            "size": 1578,
+            "modifiedTime": 1582733921570,
+            "changeTime": 1582733921570,
+            "contentHash": "f88d46767dd32271aee12932598ffd5fa0e61d2b",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -491,14 +491,14 @@
     [
         "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4Controller.js",
         {
+            "state": "u",
             "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4Controller.js",
             "isDirectory": false,
-            "size": 173,
-            "modifiedTime": 1582727686028,
-            "changeTime": 1582727686028,
-            "contentHash": "3ea5d6097ee0f8e6c98d6b24b0ae18e55ac0c7f1",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 1089,
+            "modifiedTime": 1582733978981,
+            "changeTime": 1582733978981,
+            "contentHash": "070c42843f4d3db7ed16b0442801bf178a840c3e"
         }
     ],
     [

@@ -1,5 +1,7 @@
 <aura:component controller="Controlador" access="global">
     <aura:attribute name="childAttribute" type="List"/> <!--List-->
+    <aura:attribute name="resultado" type="Integer"/>
+    <aura:attribute name="aux" type="Integer"/>
     <aura:handler name="change" value="{!v.childAttribute}" action="{!c.onChildAttributeChange}"/>
 
     <h2><b>Listado Marcas</b></h2>
@@ -24,8 +26,14 @@
             </aura:iteration>
         </tbody>
     </table>
+    <br/>
     <div>
-        <lightning:button label="llamar a Aura Controller" onclick="{!c.callAura}"/>
+        <Lightning:select aura:id="select" name="select" label="Elige un item" onchange="{!c.selectNumber}">
+            <aura:iteration var="item" items="{!v.childAttribute}">
+                <option value="{!item.capital}">{!item.name}</option>
+            </aura:iteration>
+        </Lightning:select>
+        <lightning:button label="Realizar operacion con AuraController" onclick="{!c.callAura}"/> <br/>
     </div>
-
+    <h2>Resultado Operacion: {!v.resultado}</h2>
 </aura:component>	

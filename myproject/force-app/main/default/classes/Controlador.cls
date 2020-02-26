@@ -4,7 +4,7 @@ public with sharing class Controlador {
     }
 
     @AuraEnabled
-    public static Integer sumCapital(List<E> lista){
-        return msg+' eres el mejor';
+    public static Integer Operacion(Integer capital){
+        return capital * 2;
     }
 }

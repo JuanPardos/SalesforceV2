@@ -1,0 +1,758 @@
+[
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1576742163291,
+            "changeTime": 1576742163291,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1576742163291,
+            "changeTime": 1576742163291,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1576742163291,
+            "changeTime": 1576742163291,
+            "contentHash": "a21009004cd572d890d65233421722a21fcb20a4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1582716765534,
+            "changeTime": 1582716765534,
+            "contentHash": "977b6275fb400d23f7e155b429ed562439af9dae",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1582670780800,
+            "changeTime": 1580897785024,
+            "contentHash": "58746e32e9790fda8848a3941324d6adad587995",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon/componentSon.auradoc",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon/componentSon.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1579608749856,
+            "changeTime": 1579608749856,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon/componentSon.cmp",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon/componentSon.cmp",
+            "isDirectory": false,
+            "size": 830,
+            "modifiedTime": 1582670780800,
+            "changeTime": 1580897785024,
+            "contentHash": "4dd6f61b86f7e610338a919972677479d518fe8e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon/componentSon.cmp-meta.xml",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon/componentSon.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1579608749856,
+            "changeTime": 1579608749856,
+            "contentHash": "424027deabb738d5b64aa2e2ccb076bc229a985c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon/componentSon.css",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon/componentSon.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1579608749856,
+            "changeTime": 1579608749856,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon/componentSon.design",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon/componentSon.design",
+            "isDirectory": false,
+            "size": 40,
+            "modifiedTime": 1579608749856,
+            "changeTime": 1579608749856,
+            "contentHash": "c5618bc7228e29c74b07b78fd040e05ae8a541ec",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon/componentSon.svg",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon/componentSon.svg",
+            "isDirectory": false,
+            "size": 664,
+            "modifiedTime": 1579608749856,
+            "changeTime": 1579608749856,
+            "contentHash": "6a3a9c1d5556db4bde25af9ef0957c47feb17739",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon/componentSonController.js",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon/componentSonController.js",
+            "isDirectory": false,
+            "size": 201,
+            "modifiedTime": 1579608749856,
+            "changeTime": 1579608749856,
+            "contentHash": "15bf735cb15fde6c250a9dfcda467e77c9cb38d8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon/componentSonHelper.js",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon/componentSonHelper.js",
+            "isDirectory": false,
+            "size": 45,
+            "modifiedTime": 1579608749856,
+            "changeTime": 1579608749856,
+            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon/componentSonRenderer.js",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/componentSon/componentSonRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1579608749856,
+            "changeTime": 1579608749856,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/helloApp",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/helloApp",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1579608749856,
+            "changeTime": 1579608749856,
+            "contentHash": "8560da578a9d0e1472df38460000ab4a495d2958",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/helloApp/helloApp.app",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/helloApp/helloApp.app",
+            "isDirectory": false,
+            "size": 182,
+            "modifiedTime": 1582727882356,
+            "changeTime": 1582649065278,
+            "contentHash": "39e8d3871153091b7a4a3ce0612bcb8470161d73",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/helloApp/helloApp.app-meta.xml",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/helloApp/helloApp.app-meta.xml",
+            "isDirectory": false,
+            "size": 229,
+            "modifiedTime": 1576743528675,
+            "changeTime": 1576743528675,
+            "contentHash": "74f413a68a6ffdb5fc3c2fc9c1d9fabd5a7c33d6",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/helloApp/helloApp.auradoc",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/helloApp/helloApp.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1576743528675,
+            "changeTime": 1576743528675,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/helloApp/helloApp.css",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/helloApp/helloApp.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1576743528675,
+            "changeTime": 1576743528675,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/helloApp/helloApp.svg",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/helloApp/helloApp.svg",
+            "isDirectory": false,
+            "size": 661,
+            "modifiedTime": 1576743528675,
+            "changeTime": 1576743528675,
+            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/helloApp/helloAppController.js",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/helloApp/helloAppController.js",
+            "isDirectory": false,
+            "size": 65,
+            "modifiedTime": 1576743528675,
+            "changeTime": 1576743528675,
+            "contentHash": "194250e0c86b1981f8d4e7246be6b32954c6deaf",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/helloApp/helloAppHelper.js",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/helloApp/helloAppHelper.js",
+            "isDirectory": false,
+            "size": 45,
+            "modifiedTime": 1576743528675,
+            "changeTime": 1576743528675,
+            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/helloApp/helloAppRenderer.js",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/helloApp/helloAppRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1576743528675,
+            "changeTime": 1576743528675,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1582649082794,
+            "changeTime": 1582649082794,
+            "contentHash": "bcb5bbee5d453f0bc5e0def1706fce660bc04959",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3/myComponent3.auradoc",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3/myComponent3.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1582648713682,
+            "changeTime": 1582648713682,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3/myComponent3.cmp",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3/myComponent3.cmp",
+            "isDirectory": false,
+            "size": 494,
+            "modifiedTime": 1582727969558,
+            "changeTime": 1582727969558,
+            "contentHash": "a052c81b557c81e504e327a427c830fc15365ecd",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3/myComponent3.cmp-meta.xml",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3/myComponent3.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1582648713678,
+            "changeTime": 1582648713678,
+            "contentHash": "424027deabb738d5b64aa2e2ccb076bc229a985c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3/myComponent3.css",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3/myComponent3.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1582648713682,
+            "changeTime": 1582648713682,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3/myComponent3.design",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3/myComponent3.design",
+            "isDirectory": false,
+            "size": 40,
+            "modifiedTime": 1582648713682,
+            "changeTime": 1582648713682,
+            "contentHash": "c5618bc7228e29c74b07b78fd040e05ae8a541ec",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3/myComponent3.svg",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3/myComponent3.svg",
+            "isDirectory": false,
+            "size": 664,
+            "modifiedTime": 1582648713682,
+            "changeTime": 1582648713682,
+            "contentHash": "6a3a9c1d5556db4bde25af9ef0957c47feb17739",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3/myComponent3Controller.js",
+        {
+            "state": "u",
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3/myComponent3Controller.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 428,
+            "modifiedTime": 1582728260477,
+            "changeTime": 1582728260477,
+            "isWorkspace": false,
+            "contentHash": "ea76768576adeaa73f32d2172233ba42a1f7fab6"
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3/myComponent3Renderer.js",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent3/myComponent3Renderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1582648713682,
+            "changeTime": 1582648713682,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myevent1",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myevent1",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1579608749860,
+            "changeTime": 1579608749860,
+            "contentHash": "43bcea5c49dc95f546736ebfebe864f208784e9c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myevent1/myevent1.evt",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myevent1/myevent1.evt",
+            "isDirectory": false,
+            "size": 172,
+            "modifiedTime": 1582718641621,
+            "changeTime": 1582718641621,
+            "contentHash": "4133a4e43073faf6d020a910597d404fd0cdf29d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myevent1/myevent1.evt-meta.xml",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myevent1/myevent1.evt-meta.xml",
+            "isDirectory": false,
+            "size": 223,
+            "modifiedTime": 1579608749860,
+            "changeTime": 1579608749860,
+            "contentHash": "b22bb8b080b0ed1f38c022b55ab5c2f9778087ef",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myevent2",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myevent2",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1579608749860,
+            "changeTime": 1579608749860,
+            "contentHash": "e333777ce437232f92ed77239f577bc7730def17",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myevent2/myevent2.evt",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myevent2/myevent2.evt",
+            "isDirectory": false,
+            "size": 62,
+            "modifiedTime": 1579608749860,
+            "changeTime": 1579608749860,
+            "contentHash": "73dd2d6095dcb17e014251e571de76a521b53c49",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myevent2/myevent2.evt-meta.xml",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myevent2/myevent2.evt-meta.xml",
+            "isDirectory": false,
+            "size": 223,
+            "modifiedTime": 1579608749860,
+            "changeTime": 1579608749860,
+            "contentHash": "b22bb8b080b0ed1f38c022b55ab5c2f9778087ef",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/classes",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/classes",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1579767180396,
+            "changeTime": 1579767180396,
+            "contentHash": "cd2898d016857686ee69b7ba414e8abafb659c59",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/classes/Controlador.cls",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/classes/Controlador.cls",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1582669067847,
+            "changeTime": 1582669067847,
+            "contentHash": "ad4c7a2e3618637ebf2f75d8c42257ec5b2c494e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/classes/Controlador.cls-meta.xml",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/classes/Controlador.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1576742163291,
+            "changeTime": 1576742163291,
+            "contentHash": "50701282159e2679109ad6da2dfbb354eca50ce0",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/lwc",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/lwc",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1576742163291,
+            "changeTime": 1576742163291,
+            "contentHash": "a973ac1b5be0e216b2a2db1b82ae5ba97f4086f4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1582670688117,
+            "changeTime": 1582670688117,
+            "contentHash": "482aba1731d0a586e52ba05892f68b26d69ba4fe",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1582716771509,
+            "changeTime": 1582716771509,
+            "contentHash": "8d3d53a087d239fe1479117ceaf36e16ad2e5848",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4.auradoc",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1582716765534,
+            "changeTime": 1582716765534,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4.cmp",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4.cmp",
+            "isDirectory": false,
+            "size": 953,
+            "modifiedTime": 1582727642048,
+            "changeTime": 1582727642048,
+            "contentHash": "64737b4b29d420de310c02aef81ea2812a0d182c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4.cmp-meta.xml",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1582716765534,
+            "changeTime": 1582716765534,
+            "contentHash": "424027deabb738d5b64aa2e2ccb076bc229a985c",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4.css",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1582716765534,
+            "changeTime": 1582716765534,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4.design",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4.design",
+            "isDirectory": false,
+            "size": 40,
+            "modifiedTime": 1582716765534,
+            "changeTime": 1582716765534,
+            "contentHash": "c5618bc7228e29c74b07b78fd040e05ae8a541ec",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4.svg",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4.svg",
+            "isDirectory": false,
+            "size": 664,
+            "modifiedTime": 1582716765534,
+            "changeTime": 1582716765534,
+            "contentHash": "6a3a9c1d5556db4bde25af9ef0957c47feb17739",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4Controller.js",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4Controller.js",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1582727686028,
+            "changeTime": 1582727686028,
+            "contentHash": "3ea5d6097ee0f8e6c98d6b24b0ae18e55ac0c7f1",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4Renderer.js",
+        {
+            "sourcePath": "/home/juanpardos/GIT/SGE/salesforceMyApp/myproject/force-app/main/default/aura/myComponent4/myComponent4Renderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1582716765534,
+            "changeTime": 1582716765534,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ]
+]

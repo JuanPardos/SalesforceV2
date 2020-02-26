@@ -3,14 +3,8 @@ public with sharing class Controlador {
 
     }
 
-    @AuraEnabled
-    public static String sinparam(){
-        return 'no hay parametros';
-    }
-
-    @AuraEnabled
-    public static String callWithParam(String msg){
-        System.debug(msg);
-        return msg+' eres el mejor';
-    }
+    /* @AuraEnabled
+    public static String deleteById(String id){
+        return id;
+    } */
 }

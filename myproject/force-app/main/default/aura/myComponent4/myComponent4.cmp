@@ -1,0 +1,26 @@
+<aura:component controller="Controlador" access="global">
+
+    <aura:attribute name="childAttribute" type="List"/> <!--List-->
+    <aura:attribute name="childAttribute2" type="List"/> <!--Aux-->
+
+    <aura:handler name="change" value="{!v.childAttribute}" action="{!c.onChildAttributeChange}"/>
+    <aura:handler name="change2" value="{!v.childAttribute2}" action="{!c.onChildAttributeChange2}"/>
+
+    <h2><b>Listado Marcas</b></h2>
+    <table>
+        <thead>
+            <th>| Nombre |</th> 
+            <th> Año fundación |</th>
+        </thead>
+        <br/>
+        <tbody>
+            <aura:iteration var="item" items="{!v.childAttribute}">
+                <tr>
+                    <td>{!item.name}</td>
+                    <td style="text-align: center;">{!item.year}</td>
+                </tr>
+            </aura:iteration>
+        </tbody>
+    </table>
+
+</aura:component>	
